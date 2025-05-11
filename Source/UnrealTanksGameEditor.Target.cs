@@ -9,7 +9,8 @@ public class UnrealTanksGameEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		ExtraModuleNames.Add("UnrealTanksGame");
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+        bOverrideBuildEnvironment = true;
+        ExtraModuleNames.Add("UnrealTanksGame");
 	}
 }
